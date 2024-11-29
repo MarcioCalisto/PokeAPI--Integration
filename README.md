@@ -84,10 +84,10 @@ pokeapi--integration/
 
     git push origin feature/nova-funcionalidade
 
-    Abra um pull request.
+### Abra um pull request.
 
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT.
 
-###💡 Dica: Confira a documentação oficial da PokeAPI para explorar as possibilidades de integração.
+💡 Dica: Confira a documentação oficial da PokeAPI para explorar as possibilidades de integração.
