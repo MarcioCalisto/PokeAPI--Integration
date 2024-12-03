@@ -24,19 +24,23 @@ Este projeto é uma integração com a [PokeAPI](https://pokeapi.co/) que permit
 
 ```plaintext
 pokeapi--integration/
-├── public/                 # Arquivos públicos estáticos
-│   ├── favicon.ico         # Ícone do projeto
-│   └── assets/             # Outros recursos estáticos
-├── src/                    # Código-fonte do projeto
-│   ├── App.jsx             # Componente principal
-│   ├── main.jsx            # Ponto de entrada da aplicação
-│   ├── App.css             # Estilos do componente App
-│   ├── index.css           # Estilos globais da aplicação
-├── .gitignore              # Arquivos e pastas ignorados pelo Git
-├── index.html              # Template HTML principal
-├── package.json            # Gerenciador de dependências e metadados do projeto
-├── vite.config.js          # Configurações do Vite
-└── README.md               # Documentação do projeto
+├── 📂 public/                 # Arquivos públicos estáticos
+│   └── vite.svg               # Logotipo ou ícone do Vite
+├── 📂 src/                    # Código-fonte do projeto
+│   ├── 📂 assets/             # Recursos estáticos do frontend
+│   │   └── react.svg          # Ícone do React
+│   ├── App.css                # Estilos do componente principal
+│   ├── App.jsx                # Componente principal da aplicação
+│   ├── index.css              # Estilos globais
+│   └── main.jsx               # Ponto de entrada da aplicação
+├── .gitignore                 # Arquivos e pastas ignorados pelo Git
+├── LICENSE                    # Arquivo de licença do projeto
+├── README.md                  # Documentação do projeto
+├── eslint.config.js           # Configurações do ESLint para linting do código
+├── index.html                 # Template HTML principal
+├── package-lock.json          # Dependências travadas do projeto
+├── package.json               # Metadados e dependências do projeto
+└── vite.config.js             # Configurações do Vite
 ```
 
 ## 🔧 Como Rodar o Projeto
